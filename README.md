@@ -4,9 +4,8 @@ Trabajo realizado por Irma Alonso Sánchez, Alejandro Barragán Ruiz y Germán S
 Dentro del archivo practica4_final.py se describe lo siguiete:
 
 Importación de bibliotecas y creación del contexto Spark:
-     
-     Se importa la biblioteca pyspark.
-     Se crea el contexto Spark utilizando SparkContext().
+Se importa la biblioteca pyspark.
+Se crea el contexto Spark utilizando SparkContext().
 
 Carga de datos:
      Se carga el archivo JSON llamado 'sample_10e4.json' utilizando sc.textFile() y se almacena en el RDD rdd_base.
