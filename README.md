@@ -5,18 +5,23 @@ Dentro del archivo practica4_final.py se describe lo siguiete:
 
 Importación de bibliotecas y creación del contexto Spark:
 
-Se importa la biblioteca pyspark.
+-Se importa la biblioteca pyspark.
 
-Se crea el contexto Spark utilizando SparkContext().
+-Se crea el contexto Spark utilizando SparkContext().
 
 Carga de datos:
-     Se carga el archivo JSON llamado 'sample_10e4.json' utilizando sc.textFile() y se almacena en el RDD rdd_base.
+
+-Se carga el archivo JSON llamado 'sample_10e4.json' utilizando sc.textFile() y se almacena en el RDD rdd_base.
 
 Búsqueda de la estación más deficitaria y menos deficitaria:
-     Se define la función mapper() para extraer los campos relevantes de cada línea del archivo JSON.
-     Se aplica la función mapper() al RDD rdd_base utilizando map(), creando un nuevo RDD rdd.
-     Se definen las funciones contar(), mimin(), y mimax() para realizar cálculos posteriores.
-     Se utiliza flatMap(), reduceByKey(), y reduce() para encontrar la estación más deficitaria y la estación más eficiente.
+
+-Se define la función mapper() para extraer los campos relevantes de cada línea del archivo JSON.
+
+-Se aplica la función mapper() al RDD rdd_base utilizando map(), creando un nuevo RDD rdd.
+
+-Se definen las funciones contar(), mimin(), y mimax() para realizar cálculos posteriores.
+
+-Se utiliza flatMap(), reduceByKey(), y reduce() para encontrar la estación más deficitaria y la estación más eficiente.
 
 Análisis de transferencia de bicicletas entre estaciones:
      Se realiza un filtrado y conteo de bicicletas que salen de la estación 108 y llegan a la estación 135, creando los diccionarios d1 y d2.
