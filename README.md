@@ -59,3 +59,5 @@ Análisis de usuarios basado en el código postal:
 El archivo practica4_final.ipynb contiene el mismo código que practica4_final.py pero para poderse visualizar en jupyter notebook.
 La imagen Ejecucion_cluster.png muestra la ejecución del archivo practica4_final.py en el cluster proporcionado por el profesor.
 El archivo practica4_final.txt muestra el resultado de ejecutar practica4_final.py.
+
+El archivo "Análisis problema.txt" contiene el enunciado de los problemas que nos hemos planteado y su explicación . Además del proceso de diseño e implementación de la solución y su aplicación a los resultados.
