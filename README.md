@@ -1,5 +1,6 @@
 # Practica4
-README - Análisis de datos de bicimad
+README - Análisis de datos de bicimad.
+
 Trabajo realizado por Irma Alonso Sánchez, Alejandro Barragán Ruiz y Germán Sánchez Cuesta.
 Dentro del archivo practica4_final.py se describe lo siguiete:
 
